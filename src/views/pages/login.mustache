@@ -1,0 +1,17 @@
+{{>partials/header}}
+
+
+    <h1>Página de Login</h1>
+    
+
+    <form method="post" action="login-resultado">
+        Email: <input type="email" placeholder="email" name="email"><br>
+        Senha: <input type="password" placeholder="senha" name="senha"><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+{{#email}}
+    seu Email e:{{email}}
+{{/email}}
+
+{{>partials/footer}}
